@@ -338,32 +338,32 @@ color 242,103,36
 visibility pack
 doWiggle on
 
-track Olig_1_Conditioned
-longLabel Olig_1 C+
-shortLabel Olig_1 C+
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Olig_1_FC.sorted.bam
+track Oligodendrocyte_Naive
+longLabel Oligodendrocyte N
+shortLabel Oligodendrocyte N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Olig_1_Naive.sorted.bam
 type bam 
 group category1
-color 242,103,36
+color 58,83,164
 visibility dense
 doWiggle on
 
-track Olig_1_Unconditioned
-longLabel Olig_1 U+
-shortLabel Olig_1 U+
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Olig_1_UC.sorted.bam
+track Oligodendrocyte_Unconditioned
+longLabel Oligodendrocyte U+
+shortLabel Oligodendrocyte U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Olig_1_UC.sorted.bam
 type bam 
 group category1
 color 108,190,69
 visibility dense
 doWiggle on
 
-track Olig_1_Naive
-longLabel Olig_1 N
-shortLabel Olig_1 N
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Olig_1_Naive.sorted.bam
+track Oligodendrocyte_Conditioned
+longLabel Oligodendrocyte C+
+shortLabel Oligodendrocyte C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Olig_1_FC.sorted.bam
 type bam 
 group category1
-color 58,83,164
+color 242,103,36
 visibility dense
 doWiggle on
