@@ -15,7 +15,8 @@ bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/
 type bam 
 group category1
 color 242,103,36
-visibility dense
+visibility pack
+doWiggle on
 
 track CA1_Unconditioned
 longLabel CA1 U+
