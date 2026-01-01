@@ -218,6 +218,36 @@ color 242,103,36
 visibility pack
 doWiggle on
 
+track Endothelial_Naive
+longLabel Endothelial N
+shortLabel Endothelial N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Endothelial_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track Endothelial_Unconditioned
+longLabel Endothelial U+
+shortLabel Endothelial U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Endothelial_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Endothelial_Conditioned
+longLabel Endothelial C+
+shortLabel Endothelial C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Endothelial_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
 track Olig_1_Conditioned
 longLabel Olig_1 C+
 shortLabel Olig_1 C+
