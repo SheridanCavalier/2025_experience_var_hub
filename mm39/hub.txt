@@ -308,6 +308,36 @@ color 242,103,36
 visibility pack
 doWiggle on
 
+track Neuroblast_Naive
+longLabel Neuroblast N
+shortLabel Neuroblast N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Neuroblast_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track  Neuroblast_Unconditioned
+longLabel Neuroblast U+
+shortLabel Neuroblast U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Neuroblast_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Neuroblast_Conditioned
+longLabel Neuroblast C+
+shortLabel Neuroblast C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Neuroblast_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
 track Olig_1_Conditioned
 longLabel Olig_1 C+
 shortLabel Olig_1 C+
