@@ -8,13 +8,13 @@ descriptionUrl ucscHub.html
 genome mm39
 groups https://raw.githubusercontent.com/SheridanCavalier/2025_experience_var_hub/refs/heads/main/mm39/groups.txt
 
-track Astrocyte_Conditioned
-longLabel Astrocyte C+
-shortLabel Astrocyte C+
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Astrocyte_FC.sorted.bam
+track Astrocyte_Naive
+longLabel Astrocyte N
+shortLabel Astrocyte N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Astrocyte_Naive.sorted.bam
 type bam 
 group category1
-color 242,103,36
+color 58,83,164
 visibility pack
 doWiggle on
 
@@ -28,33 +28,13 @@ color 108,190,69
 visibility pack
 doWiggle on
 
-track Astrocyte_Naive
-longLabel Astrocyte N
-shortLabel Astrocyte N
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Astrocyte_Naive.sorted.bam
-type bam 
-group category1
-color 58,83,164
-visibility pack
-doWiggle on
-
-track CA1_Conditioned
-longLabel CA1 C+
-shortLabel CA1 C+
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA1_FC.sorted.bam
+track Astrocyte_Conditioned
+longLabel Astrocyte C+
+shortLabel Astrocyte C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Astrocyte_FC.sorted.bam
 type bam 
 group category1
 color 242,103,36
-visibility pack
-doWiggle on
-
-track CA1_Unconditioned
-longLabel CA1 U+
-shortLabel CA1 U+
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA1_UC.sorted.bam
-type bam 
-group category1
-color 108,190,69
 visibility pack
 doWiggle on
 
@@ -68,23 +48,23 @@ color 58,83,164
 visibility pack
 doWiggle on
 
-track CA2_Conditioned
-longLabel CA2 C+
-shortLabel CA2 C+
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA2_FC.sorted.bam
-type bam 
-group category1
-color 242,103,36
-visibility pack
-doWiggle on
-
-track CA2_Unconditioned
-longLabel CA2 U+
-shortLabel CA2 U+
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA2_UC.sorted.bam
+track CA1_Unconditioned
+longLabel CA1 U+
+shortLabel CA1 U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA1_UC.sorted.bam
 type bam 
 group category1
 color 108,190,69
+visibility pack
+doWiggle on
+
+track CA1_Conditioned
+longLabel CA1 C+
+shortLabel CA1 C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA1_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
 visibility pack
 doWiggle on
 
@@ -98,13 +78,33 @@ color 58,83,164
 visibility pack
 doWiggle on
 
-track CA3_Conditioned
-longLabel CA3 C+
-shortLabel CA3 C+
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA3_FC.sorted.bam
+track CA2_Unconditioned
+longLabel CA2 U+
+shortLabel CA2 U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA2_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track CA2_Conditioned
+longLabel CA2 C+
+shortLabel CA2 C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA2_FC.sorted.bam
 type bam 
 group category1
 color 242,103,36
+visibility pack
+doWiggle on
+
+track CA3_Naive
+longLabel CA3 N
+shortLabel CA3 N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA3_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
 visibility pack
 doWiggle on
 
@@ -118,14 +118,24 @@ color 108,190,69
 visibility pack
 doWiggle on
 
-track CA3_Naive
-longLabel CA3 N
-shortLabel CA3 N
+track CA3_Conditioned
+longLabel CA3 C+
+shortLabel CA3 C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA3_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
+track Dentate_1_Naive
+longLabel Dentate_1 N
+shortLabel Dentate_1 N
 bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA3_Naive.sorted.bam
 type bam 
 group category1
 color 58,83,164
-visibility pack
+visibility dense
 doWiggle on
 
 track Dentate_1_Conditioned
@@ -145,16 +155,6 @@ bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experi
 type bam 
 group category1
 color 108,190,69
-visibility dense
-doWiggle on
-
-track Dentate_1_Naive
-longLabel Dentate_1 N
-shortLabel Dentate_1 N
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Dentate_1_Naive.sorted.bam
-type bam 
-group category1
-color 58,83,164
 visibility dense
 doWiggle on
 
