@@ -397,3 +397,63 @@ group category1
 color 242,103,36
 visibility pack
 doWiggle on
+
+track Pericyte_Naive
+longLabel Pericyte N
+shortLabel Pericyte N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Pericyte_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track Pericyte_Unconditioned
+longLabel Pericyte U+
+shortLabel Pericyte U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Pericyte_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Pericyte_Conditioned
+longLabel Pericyte C+
+shortLabel Pericyte C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Pericyte_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
+track Progenitor_Naive
+longLabel Progenitor N
+shortLabel Progenitor N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Progenitor_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track Progenitor_Unconditioned
+longLabel Progenitor U+
+shortLabel Progenitor U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Progenitor_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Progenitor_Conditioned
+longLabel Progenitor C+
+shortLabel Progenitor C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Progenitor_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
