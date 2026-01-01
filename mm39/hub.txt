@@ -131,31 +131,91 @@ doWiggle on
 track Dentate_1_Naive
 longLabel Dentate_1 N
 shortLabel Dentate_1 N
-bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/CA3_Naive.sorted.bam
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_1_Naive.sorted.bam
 type bam 
 group category1
 color 58,83,164
-visibility dense
-doWiggle on
-
-track Dentate_1_Conditioned
-longLabel Dentate_1 C+
-shortLabel Dentate_1 C+
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Dentate_1_FC.sorted.bam
-type bam 
-group category1
-color 242,103,36
-visibility dense
+visibility pack
 doWiggle on
 
 track Dentate_1_Unconditioned
 longLabel Dentate_1 U+
 shortLabel Dentate_1 U+
-bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Dentate_1_UC.sorted.bam
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_1_FC.sorted.bam
 type bam 
 group category1
 color 108,190,69
-visibility dense
+visibility pack
+doWiggle on
+
+track Dentate_1_Conditioned
+longLabel Dentate_1 C+
+shortLabel Dentate_1 C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_1_UC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
+track Dentate_2_Naive
+longLabel Dentate_2 N
+shortLabel Dentate_2 N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_2_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track Dentate_2_Unconditioned
+longLabel Dentate_2 U+
+shortLabel Dentate_2 U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_2_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Dentate_2_Conditioned
+longLabel Dentate_2 C+
+shortLabel Dentate_2 C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_2_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
+track Dentate_3_Naive
+longLabel Dentate_3 N
+shortLabel Dentate_3 N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_3_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track Dentate_3_Unconditioned
+longLabel Dentate_3 U+
+shortLabel Dentate_3 U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_3_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Dentate_3_Conditioned
+longLabel Dentate_3 C+
+shortLabel Dentate_3 C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Dentate_3_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
 doWiggle on
 
 track Olig_1_Conditioned
