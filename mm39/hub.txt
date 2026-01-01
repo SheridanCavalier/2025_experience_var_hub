@@ -345,7 +345,7 @@ bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/
 type bam 
 group category1
 color 58,83,164
-visibility dense
+visibility pack
 doWiggle on
 
 track Oligodendrocyte_Unconditioned
@@ -355,7 +355,7 @@ bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/
 type bam 
 group category1
 color 108,190,69
-visibility dense
+visibility pack
 doWiggle on
 
 track Oligodendrocyte_Conditioned
@@ -365,5 +365,5 @@ bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/
 type bam 
 group category1
 color 242,103,36
-visibility dense
+visibility pack
 doWiggle on
