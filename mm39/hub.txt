@@ -6,7 +6,7 @@ longLabel Long read scRNA-seq of mouse hippocampus from three contextual conditi
 descriptionUrl ucscHub.html 
 
 genome mm39
-groups https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/groups.txt
+groups https://raw.githubusercontent.com/SheridanCavalier/2025_experience_var_hub/refs/heads/main/mm39/groups.txt
 
 track CA1_Conditioned
 longLabel CA1 C+
