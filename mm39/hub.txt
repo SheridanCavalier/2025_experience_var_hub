@@ -248,6 +248,66 @@ color 242,103,36
 visibility pack
 doWiggle on
 
+track Inhibitory_Naive
+longLabel Inhibitory N
+shortLabel Inhibitory N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Inhibitory_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track Inhibitory_Unconditioned
+longLabel Inhibitory U+
+shortLabel Inhibitory U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Inhibitory_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Inhibitory_Conditioned
+longLabel Inhibitory C+
+shortLabel Inhibitory C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Inhibitory_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
+track Microglia_Naive
+longLabel Microglia N
+shortLabel Microglia N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Microglia_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track  Microglia_Unconditioned
+longLabel Microglia U+
+shortLabel Microglia U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Microglia_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track Microglia_Conditioned
+longLabel Microglia C+
+shortLabel Microglia C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/Microglia_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
+
 track Olig_1_Conditioned
 longLabel Olig_1 C+
 shortLabel Olig_1 C+
