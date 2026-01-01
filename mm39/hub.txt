@@ -367,3 +367,33 @@ group category1
 color 242,103,36
 visibility pack
 doWiggle on
+
+track OPC_Naive
+longLabel OPC N
+shortLabel OPC N
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/OPC_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility pack
+doWiggle on
+
+track OPC_Unconditioned
+longLabel OPC U+
+shortLabel OPC U+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/OPC_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility pack
+doWiggle on
+
+track OPC_Conditioned
+longLabel OPC C+
+shortLabel OPC C+
+bigDataUrl https://github.com/SheridanCavalier/2025_experience_var_hub/raw/refs/heads/main/mm39/OPC_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility pack
+doWiggle on
