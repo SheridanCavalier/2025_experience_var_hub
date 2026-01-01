@@ -1,0 +1,98 @@
+hub sheridan_2025_experience
+shortLabel sc_2025_experience_isoforms
+useOneFile on
+email scavali1@jh.edu
+longLabel Long read scRNA-seq of mouse hippocampus from three contextual conditions
+descriptionUrl ucscHub.html 
+
+genome mm39
+groups https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/groups.txt
+
+track CA1_Conditioned
+longLabel CA1 C+
+shortLabel CA1 C+
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/CA1_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility dense
+
+track CA1_Unconditioned
+longLabel CA1 U+
+shortLabel CA1 U+
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/CA1_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility dense
+doWiggle on
+
+track CA1_Naive
+longLabel CA1 N
+shortLabel CA1 N
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/CA1_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility dense
+doWiggle on
+
+track Dentate_1_Conditioned
+longLabel Dentate_1 C+
+shortLabel Dentate_1 C+
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Dentate_1_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility dense
+doWiggle on
+
+track Dentate_1_Unconditioned
+longLabel Dentate_1 U+
+shortLabel Dentate_1 U+
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Dentate_1_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility dense
+doWiggle on
+
+track Dentate_1_Naive
+longLabel Dentate_1 N
+shortLabel Dentate_1 N
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Dentate_1_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility dense
+doWiggle on
+
+track Olig_1_Conditioned
+longLabel Olig_1 C+
+shortLabel Olig_1 C+
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Olig_1_FC.sorted.bam
+type bam 
+group category1
+color 242,103,36
+visibility dense
+doWiggle on
+
+track Olig_1_Unconditioned
+longLabel Olig_1 U+
+shortLabel Olig_1 U+
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Olig_1_UC.sorted.bam
+type bam 
+group category1
+color 108,190,69
+visibility dense
+doWiggle on
+
+track Olig_1_Naive
+longLabel Olig_1 N
+shortLabel Olig_1 N
+bigDataUrl https://data.cyverse.org/dav-anon/iplant/home/sheridancavalier/experience_var_hub/mm39/Olig_1_Naive.sorted.bam
+type bam 
+group category1
+color 58,83,164
+visibility dense
+doWiggle on
